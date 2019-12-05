@@ -129,7 +129,12 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
 
 nnoremap w <Up>
+
+
 nnoremap s <Down>
+
 nnoremap a <Left>
+nnoremap A <S-Left> 
+
 nnoremap d <Right> 
 nnoremap D <S-Right> 
