@@ -21,7 +21,7 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'christoomey/vim-tmux-navigator'
 
 " Fuzzy Search
-Plug '~/.fzf'
+Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 
 " Utilities
