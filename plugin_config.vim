@@ -37,7 +37,15 @@ let g:NERDTreeGitStatusWithFlags = 1
 
 
 " coc ----- {{{
-
+  
+let g:coc_global_extensions = [
+  \ 'coc-snippets',
+  \ 'coc-pairs',
+  \ 'coc-tsserver',
+  \ 'coc-eslint', 
+  \ 'coc-prettier', 
+  \ 'coc-json', 
+  \ ]
 
 function! s:check_back_space() abort
   let col = col('.') - 1
